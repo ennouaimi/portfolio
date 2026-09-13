@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight, faCode, faDownload, faLightbulb, faPaperPlane, faRocket, faUsers } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin, faXTwitter } from '@fortawesome/free-brands-svg-icons';
@@ -73,7 +74,14 @@ export default function Home() {
         </div>
 
         <div className="hero-art" aria-hidden="true">
-          <img className="hero-illustration" src="/hero-illustration.webp" alt="" />
+          <Image
+            src="/hero-illustration.webp"
+            alt=""
+            fill
+            priority
+            sizes="(max-width: 1024px) 100vw, 50vw"
+            style={{ objectFit: 'contain', objectPosition: 'center' }}
+          />
         </div>
       </section>
 
