@@ -73,24 +73,7 @@ export default function Home() {
         </div>
 
         <div className="hero-art" aria-hidden="true">
-          <div className="impact-bubble">Ideas<br />into impact</div>
-          <div className="developer-card">
-            <div className="hair" />
-            <div className="face">:)</div>
-            <div className="hoodie" />
-            <div className="laptop"><span>IE</span></div>
-          </div>
-          <div className="plant"><span /><span /><span /></div>
-          <div className="check-card">
-            <div><b>✓</b> Clean code</div>
-            <div><b>✓</b> Better tools</div>
-            <div><b>✓</b> Happier users</div>
-          </div>
-          <div className="book-stack">
-            <span>Code</span><span>Build</span><span>Improve</span><span>Repeat</span>
-          </div>
-          <div className="orbit orbit-one" />
-          <div className="orbit orbit-two" />
+          <img className="hero-illustration" src="/hero-illustration.webp" alt="" />
         </div>
       </section>
 
