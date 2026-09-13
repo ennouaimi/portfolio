@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800;900&display=swap');
 
 :root {
   --ink: #14163e;
@@ -15,7 +15,7 @@
 html { scroll-behavior: smooth; }
 body {
   margin: 0;
-  font-family: 'Nunito', system-ui, sans-serif;
+  font-family: 'Gabarito', system-ui, sans-serif;
   background: radial-gradient(circle at 35% 10%, rgba(255,219,184,.45), transparent 25%), var(--paper);
   color: var(--ink);
 }
@@ -87,7 +87,7 @@ a { color: inherit; text-decoration: none; }
 .pillar-icon.purple { background: #ece4ff; color: var(--purple); }
 
 .projects-section { padding: 10px 0 26px; }
-.section-heading-row { display: flex; justify-content: space-between; align-items: end; margin-bottom: 20px; }
+.section-heading-row { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 20px; }
 .projects-section h2 { font-size: clamp(2.2rem,4vw,3.6rem); font-weight: 900; }
 .text-link { color: var(--purple); font-weight: 900; }
 .project-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 18px; }
